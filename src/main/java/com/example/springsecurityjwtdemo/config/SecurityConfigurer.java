@@ -1,5 +1,6 @@
-package com.example.springsecurityjwtdemo;
+package com.example.springsecurityjwtdemo.config;
 
+import com.example.springsecurityjwtdemo.services.MyUserDetailsService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
 import org.springframework.security.config.annotation.authentication.builders.AuthenticationManagerBuilder;

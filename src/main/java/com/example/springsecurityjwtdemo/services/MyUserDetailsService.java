@@ -1,4 +1,4 @@
-package com.example.springsecurityjwtdemo;
+package com.example.springsecurityjwtdemo.services;
 
 
 import lombok.extern.slf4j.Slf4j;
