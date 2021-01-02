@@ -16,6 +16,7 @@ import io.jsonwebtoken.Jwts;
 @Service
 public class JwtUtil {
 
+    // NOTE: We put the JWT Secret key here only for demonstrative purposes
     private String SECRET_KEY = "secret";
 
     public String extractUsername(String token) {
